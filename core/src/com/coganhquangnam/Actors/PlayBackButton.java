@@ -1,4 +1,4 @@
-package com.haminhon.Actors;
+package com.coganhquangnam.Actors;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
@@ -7,10 +7,10 @@ import com.badlogic.gdx.scenes.scene2d.EventListener;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.haminhon.Engine.AI;
-import com.haminhon.Screen.ChessBoard;
-import com.haminhon.gesture.Assets;
-import com.haminhon.gesture.BoardMemory;
+import com.coganhquangnam.Engine.AI;
+import com.coganhquangnam.Screen.ChessBoard;
+import com.coganhquangnam.gesture.Assets;
+import com.coganhquangnam.gesture.BoardMemory;
 
 /**
  * Created by nguyen gon on 2016/04/24.

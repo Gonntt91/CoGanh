@@ -1,4 +1,4 @@
-package com.haminhon;
+package com.coganhquangnam;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;

@@ -1,10 +1,10 @@
-package com.haminhon;
+package com.coganhquangnam;
 
 import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.haminhon.MyGdxGame;
+import com.coganhquangnam.MyGdxGame;
 
 public class AndroidLauncher extends AndroidApplication {
 	@Override

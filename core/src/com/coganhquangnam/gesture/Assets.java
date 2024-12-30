@@ -1,4 +1,4 @@
-package com.haminhon.gesture;
+package com.coganhquangnam.gesture;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.audio.Sound;

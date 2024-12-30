@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.haminhon;
+package com.coganhquangnam;
 
 public final class R {
     public static final class attr {

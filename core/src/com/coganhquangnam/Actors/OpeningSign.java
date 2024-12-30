@@ -1,4 +1,4 @@
-package com.haminhon.Actors;
+package com.coganhquangnam.Actors;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
@@ -7,10 +7,10 @@ import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
-import com.haminhon.Engine.AI;
-import com.haminhon.Engine.Point;
-import com.haminhon.Screen.ChessBoard;
-import com.haminhon.gesture.Calculation;
+import com.coganhquangnam.Engine.AI;
+import com.coganhquangnam.Engine.Point;
+import com.coganhquangnam.Screen.ChessBoard;
+import com.coganhquangnam.gesture.Calculation;
 
 
 import java.util.ArrayList;

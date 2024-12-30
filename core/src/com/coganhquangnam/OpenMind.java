@@ -1,8 +1,8 @@
-package com.haminhon;
+package com.coganhquangnam;
 
 
 import com.badlogic.gdx.Game;
-import com.haminhon.Screen.PlayScreen;
+import com.coganhquangnam.Screen.PlayScreen;
 
 
 public class OpenMind extends Game {

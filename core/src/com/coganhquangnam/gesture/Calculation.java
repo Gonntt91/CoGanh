@@ -1,9 +1,9 @@
-package com.haminhon.gesture;
+package com.coganhquangnam.gesture;
 
 import com.badlogic.gdx.math.Vector2;
-import com.haminhon.Actors.ChessPiece;
-import com.haminhon.Engine.Point;
-import com.haminhon.Screen.ChessBoard;
+import com.coganhquangnam.Actors.ChessPiece;
+import com.coganhquangnam.Engine.Point;
+import com.coganhquangnam.Screen.ChessBoard;
 
 
 import java.util.ArrayList;

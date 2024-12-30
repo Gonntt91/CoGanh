@@ -1,14 +1,14 @@
-package com.haminhon.Screen;
+package com.coganhquangnam.Screen;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.EventListener;
 import com.badlogic.gdx.scenes.scene2d.ui.*;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
-import com.haminhon.Actors.ChessPiece;
-import com.haminhon.Actors.OpeningSign;
-import com.haminhon.Engine.AI;
-import com.haminhon.gesture.BoardMemory;
+import com.coganhquangnam.Actors.ChessPiece;
+import com.coganhquangnam.Actors.OpeningSign;
+import com.coganhquangnam.Engine.AI;
+import com.coganhquangnam.gesture.BoardMemory;
 
 
 import java.util.ArrayList;

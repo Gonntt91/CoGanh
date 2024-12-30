@@ -1,12 +1,12 @@
-package com.haminhon.gesture;
+package com.coganhquangnam.gesture;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.math.Interpolation;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
-import com.haminhon.Actors.ChessPiece;
-import com.haminhon.Engine.AI;
-import com.haminhon.Screen.ChessBoard;
+import com.coganhquangnam.Actors.ChessPiece;
+import com.coganhquangnam.Engine.AI;
+import com.coganhquangnam.Screen.ChessBoard;
 
 import static com.badlogic.gdx.scenes.scene2d.actions.Actions.parallel;
 import static com.badlogic.gdx.scenes.scene2d.actions.Actions.run;

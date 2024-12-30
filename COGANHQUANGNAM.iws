@@ -3,17 +3,17 @@
   <component name="AndroidConfiguredLogFilters">
     <filters>
       <filter>
-        <option name="name" value="app: com.haminhon" />
-        <option name="packageNamePattern" value="com.haminhon" />
+        <option name="name" value="app: com.coganhquangnam" />
+        <option name="packageNamePattern" value="com.coganhquangnam" />
       </filter>
     </filters>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.haminhon" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.coganhquangnam" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="214bffc7-7568-40ef-9700-811ce710a1cc" name="Default" comment="" />
-    <ignored path="HAMINHON.iws" />
+    <ignored path="COGANHQUANGNAM.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -89,12 +89,12 @@
     </system>
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="HAMINHON" />
+    <favorites_list name="COGANHQUANGNAM" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ChessPiece.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Actors/ChessPiece.java">
+        <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/ChessPiece.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
               <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
@@ -118,7 +118,7 @@
         </entry>
       </file>
       <file leaf-file-name="Assets.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/gesture/Assets.java">
+        <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/gesture/Assets.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="26">
               <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
@@ -128,7 +128,7 @@
         </entry>
       </file>
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Screen/Controller.java">
+        <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Screen/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
               <caret line="46" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
@@ -145,7 +145,7 @@
         </entry>
       </file>
       <file leaf-file-name="PlayScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Screen/PlayScreen.java">
+        <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Screen/PlayScreen.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
               <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
@@ -155,7 +155,7 @@
         </entry>
       </file>
       <file leaf-file-name="ChessBoard.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Screen/ChessBoard.java">
+        <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Screen/ChessBoard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
               <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
@@ -173,7 +173,7 @@
         </entry>
       </file>
       <file leaf-file-name="PlayBackButton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Actors/PlayBackButton.java">
+        <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/PlayBackButton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="505">
               <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
@@ -201,7 +201,7 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="HAMINHON" />
+              <option name="name" value="COGANHQUANGNAM" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -216,7 +216,7 @@
                 <option name="path" value="$PROJECT_DIR$/desktop" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="HAMINHON" />
+                <option name="name" value="COGANHQUANGNAM" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -242,7 +242,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'HAMINHON'." />
+                <option name="description" value="Displays the sub-projects of root project 'COGANHQUANGNAM'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -277,7 +277,7 @@
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'HAMINHON'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'COGANHQUANGNAM'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -297,7 +297,7 @@
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'HAMINHON' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'COGANHQUANGNAM' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -316,7 +316,7 @@
                 <option name="name" value="deviceCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'HAMINHON'." />
+                <option name="description" value="Displays all dependencies declared in root project 'COGANHQUANGNAM'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -403,7 +403,7 @@
                 <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'HAMINHON'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'COGANHQUANGNAM'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -538,7 +538,7 @@
                 <option name="name" value="uninstallDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'HAMINHON'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'COGANHQUANGNAM'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -853,7 +853,7 @@
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'HAMINHON'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'COGANHQUANGNAM'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -1008,7 +1008,7 @@
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'HAMINHON'." />
+                <option name="description" value="Displays the properties of root project 'COGANHQUANGNAM'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -3565,23 +3565,23 @@
       <list>
         <option value="$PROJECT_DIR$/android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/android/android.iml" />
-        <option value="$PROJECT_DIR$/core/src/com/haminhon/Actors/Selected.java" />
-        <option value="$PROJECT_DIR$/core/src/com/haminhon/gesture/Calculation.java" />
-        <option value="$PROJECT_DIR$/core/src/com/haminhon/OpenMind.java" />
-        <option value="$PROJECT_DIR$/android/src/com/haminhon/AndroidLauncher.java" />
-        <option value="$PROJECT_DIR$/desktop/src/com/haminhon/desktop/DesktopLauncher.java" />
+        <option value="$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/Selected.java" />
+        <option value="$PROJECT_DIR$/core/src/com/coganhquangnam/gesture/Calculation.java" />
+        <option value="$PROJECT_DIR$/core/src/com/coganhquangnam/OpenMind.java" />
+        <option value="$PROJECT_DIR$/android/src/com/coganhquangnam/AndroidLauncher.java" />
+        <option value="$PROJECT_DIR$/desktop/src/com/coganhquangnam/desktop/DesktopLauncher.java" />
         <option value="$PROJECT_DIR$/android/assets/uiskin.json" />
-        <option value="$PROJECT_DIR$/core/src/com/haminhon/Screen/Controller.java" />
-        <option value="$PROJECT_DIR$/core/src/com/haminhon/gesture/BoardMemory.java" />
-        <option value="$PROJECT_DIR$/core/src/com/haminhon/Actors/NextPosition.java" />
-        <option value="$PROJECT_DIR$/core/src/com/haminhon/Engine/AI.java" />
-        <option value="$PROJECT_DIR$/core/src/com/haminhon/Actors/OpeningSign.java" />
-        <option value="$PROJECT_DIR$/core/src/com/haminhon/Actors/ChessPiece.java" />
-        <option value="$PROJECT_DIR$/core/src/com/haminhon/gesture/Behaviour.java" />
-        <option value="$PROJECT_DIR$/core/src/com/haminhon/Screen/PlayScreen.java" />
-        <option value="$PROJECT_DIR$/core/src/com/haminhon/gesture/Assets.java" />
-        <option value="$PROJECT_DIR$/core/src/com/haminhon/Actors/PlayBackButton.java" />
-        <option value="$PROJECT_DIR$/core/src/com/haminhon/Screen/ChessBoard.java" />
+        <option value="$PROJECT_DIR$/core/src/com/coganhquangnam/Screen/Controller.java" />
+        <option value="$PROJECT_DIR$/core/src/com/coganhquangnam/gesture/BoardMemory.java" />
+        <option value="$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/NextPosition.java" />
+        <option value="$PROJECT_DIR$/core/src/com/coganhquangnam/Engine/AI.java" />
+        <option value="$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/OpeningSign.java" />
+        <option value="$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/ChessPiece.java" />
+        <option value="$PROJECT_DIR$/core/src/com/coganhquangnam/gesture/Behaviour.java" />
+        <option value="$PROJECT_DIR$/core/src/com/coganhquangnam/Screen/PlayScreen.java" />
+        <option value="$PROJECT_DIR$/core/src/com/coganhquangnam/gesture/Assets.java" />
+        <option value="$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/PlayBackButton.java" />
+        <option value="$PROJECT_DIR$/core/src/com/coganhquangnam/Screen/ChessBoard.java" />
       </list>
     </option>
   </component>
@@ -3658,7 +3658,7 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3668,27 +3668,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3698,11 +3698,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3720,11 +3720,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3734,11 +3734,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3752,11 +3752,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3768,17 +3768,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="haminhon" />
+              <option name="myItemId" value="coganhquangnam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3790,7 +3790,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="haminhon" />
+              <option name="myItemId" value="coganhquangnam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3800,11 +3800,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3816,7 +3816,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="haminhon" />
+              <option name="myItemId" value="coganhquangnam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3826,11 +3826,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3842,7 +3842,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="haminhon" />
+              <option name="myItemId" value="coganhquangnam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3852,11 +3852,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3868,7 +3868,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="haminhon" />
+              <option name="myItemId" value="coganhquangnam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3878,11 +3878,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3892,11 +3892,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3908,17 +3908,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="haminhon" />
+              <option name="myItemId" value="coganhquangnam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3932,11 +3932,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HAMINHON" />
+              <option name="myItemId" value="COGANHQUANGNAM" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3964,7 +3964,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HAMINHON.ipr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/COGANHQUANGNAM.ipr" />
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="b0c4da97" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21_x86" />
@@ -3973,8 +3973,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\COMPILER\LIBGDX\HAMINHON\android\assets" />
-      <recent name="D:\COMPILER\LIBGDX\HAMINHON\core\src\com\haminhon" />
+      <recent name="D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\assets" />
+      <recent name="D:\COMPILER\LIBGDX\COGANHQUANGNAM\core\src\com\coganhquangnam" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.android">
@@ -4127,7 +4127,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HAMINHON" />
+      <module name="COGANHQUANGNAM" />
       <envs />
       <method />
     </configuration>
@@ -4228,7 +4228,7 @@
     </configuration>
     <configuration default="false" name="desktop" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.haminhon.desktop.DesktopLauncher" />
+      <option name="MAIN_CLASS_NAME" value="com.coganhquangnam.desktop.DesktopLauncher" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/android/assets" />
@@ -4327,7 +4327,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Screen/PlayScreen.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Screen/PlayScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
@@ -4358,7 +4358,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Actors/ChessPiece.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/ChessPiece.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1664">
           <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
@@ -4385,28 +4385,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Actors/OpeningSign.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/OpeningSign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2340">
           <caret line="111" column="8" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Actors/Selected.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/Selected.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/haminhon/AndroidLauncher.java">
+    <entry file="file://$PROJECT_DIR$/android/src/com/coganhquangnam/AndroidLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/MyGdxGame.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/MyGdxGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
@@ -4426,14 +4426,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/haminhon/AndroidLauncher.java">
+    <entry file="file://$PROJECT_DIR$/android/src/com/coganhquangnam/AndroidLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/MyGdxGame.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/MyGdxGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -4484,14 +4484,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/test/CopyAndCompare.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/test/CopyAndCompare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/MyGdxGame.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/MyGdxGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -4535,7 +4535,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/haminhon/AndroidLauncher.java">
+    <entry file="file://$PROJECT_DIR$/android/src/com/coganhquangnam/AndroidLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
@@ -4547,7 +4547,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Engine/BoardStatus.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Engine/BoardStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
@@ -4555,7 +4555,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Engine/Point.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Engine/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="7" />
@@ -4563,7 +4563,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Engine/Rating.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Engine/Rating.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -4571,7 +4571,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/gesture/BoardMemory.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/gesture/BoardMemory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1133">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
@@ -4579,7 +4579,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/gesture/Calculation.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/gesture/Calculation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-171">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -4587,7 +4587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/OpenMind.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/OpenMind.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
@@ -4609,7 +4609,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Engine/AI.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Engine/AI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="115" column="33" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
@@ -4634,7 +4634,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Actors/OpeningSign.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/OpeningSign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="119" column="53" selection-start-line="119" selection-start-column="53" selection-end-line="119" selection-end-column="53" />
@@ -4652,7 +4652,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/com/haminhon/desktop/DesktopLauncher.java">
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/coganhquangnam/desktop/DesktopLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
@@ -4660,7 +4660,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/gesture/Behaviour.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/gesture/Behaviour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -4687,7 +4687,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Screen/BaseGameScreen.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Screen/BaseGameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
@@ -4695,7 +4695,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/gesture/Assets.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/gesture/Assets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
@@ -4703,7 +4703,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Actors/Selected.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/Selected.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
@@ -4711,7 +4711,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Actors/NextPosition.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/NextPosition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
@@ -4719,7 +4719,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Screen/PlayScreen.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Screen/PlayScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
@@ -4727,7 +4727,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Actors/ChessPiece.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/ChessPiece.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
@@ -4749,7 +4749,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Screen/Controller.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Screen/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="46" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
@@ -4764,7 +4764,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Actors/PlayBackButton.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Actors/PlayBackButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
           <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
@@ -4776,7 +4776,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/haminhon/Screen/ChessBoard.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/coganhquangnam/Screen/ChessBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />

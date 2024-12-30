@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="D:\COMPILER\LIBGDX\HAMINHON\core\build\libs\core-1.0.jar"
+        jar="D:\COMPILER\LIBGDX\COGANHQUANGNAM\core\build\libs\core-1.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="44cd84933ef56aaa7af5a983c26fed66f64b6f49">
-        <dex dex="D:\COMPILER\LIBGDX\HAMINHON\android\build\intermediates\pre-dexed\debug\core-1.0_753c291869fcde5dbf455ac9c60255ef50e384f6.jar" />
+        <dex dex="D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\build\intermediates\pre-dexed\debug\core-1.0_753c291869fcde5dbf455ac9c60255ef50e384f6.jar" />
     </item>
 
 </items>

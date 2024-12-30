@@ -1,4 +1,4 @@
-package com.haminhon.Screen;
+package com.coganhquangnam.Screen;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
@@ -7,10 +7,10 @@ import com.badlogic.gdx.scenes.scene2d.EventListener;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.viewport.FitViewport;
-import com.haminhon.Actors.ChessPiece;
-import com.haminhon.Actors.OpeningSign;
-import com.haminhon.Actors.PlayBackButton;
-import com.haminhon.Engine.AI;
+import com.coganhquangnam.Actors.ChessPiece;
+import com.coganhquangnam.Actors.OpeningSign;
+import com.coganhquangnam.Actors.PlayBackButton;
+import com.coganhquangnam.Engine.AI;
 
 
 

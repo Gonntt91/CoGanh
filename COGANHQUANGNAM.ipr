@@ -70,7 +70,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HAMINHON.iml" filepath="$PROJECT_DIR$/.idea/modules/HAMINHON.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/COGANHQUANGNAM.iml" filepath="$PROJECT_DIR$/.idea/modules/COGANHQUANGNAM.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android/android.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/desktop.iml" />

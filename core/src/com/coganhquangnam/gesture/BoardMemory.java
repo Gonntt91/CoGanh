@@ -1,11 +1,11 @@
-package com.haminhon.gesture;
+package com.coganhquangnam.gesture;
 
 
-import com.haminhon.Actors.ChessPiece;
-import com.haminhon.Actors.OpeningSign;
-import com.haminhon.Engine.AI;
-import com.haminhon.Engine.Point;
-import com.haminhon.Screen.ChessBoard;
+import com.coganhquangnam.Actors.ChessPiece;
+import com.coganhquangnam.Actors.OpeningSign;
+import com.coganhquangnam.Engine.AI;
+import com.coganhquangnam.Engine.Point;
+import com.coganhquangnam.Screen.ChessBoard;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

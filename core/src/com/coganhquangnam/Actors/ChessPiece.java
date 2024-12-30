@@ -1,4 +1,4 @@
-package com.haminhon.Actors;
+package com.coganhquangnam.Actors;
 
 import static com.badlogic.gdx.scenes.scene2d.actions.Actions.*;
 import com.badlogic.gdx.Gdx;
@@ -10,11 +10,11 @@ import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.actions.MoveToAction;
 import com.badlogic.gdx.utils.TimeUtils;
 import com.badlogic.gdx.utils.Timer;
-import com.haminhon.Engine.AI;
-import com.haminhon.Screen.ChessBoard;
-import com.haminhon.gesture.Assets;
-import com.haminhon.gesture.Behaviour;
-import com.haminhon.gesture.BoardMemory;
+import com.coganhquangnam.Engine.AI;
+import com.coganhquangnam.Screen.ChessBoard;
+import com.coganhquangnam.gesture.Assets;
+import com.coganhquangnam.gesture.Behaviour;
+import com.coganhquangnam.gesture.BoardMemory;
 
 
 import java.util.ArrayList;

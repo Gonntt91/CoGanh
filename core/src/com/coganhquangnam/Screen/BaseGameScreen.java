@@ -1,4 +1,4 @@
-package com.haminhon.Screen;
+package com.coganhquangnam.Screen;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
