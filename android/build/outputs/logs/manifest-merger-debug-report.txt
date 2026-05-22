@@ -1,57 +1,68 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:2:1-26:12
+ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:2:1-24:12
+MERGED from [com.badlogicgames.gdx:gdx-backend-android:1.12.1] /Users/gonton/.gradle/caches/transforms-3/edc5498164bdd6bf13557c4fc99ab8f9/transformed/gdx-backend-android-1.12.1/AndroidManifest.xml:2:1-13:12
 	package
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:3:5-27
-		INJECTED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml
-		INJECTED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml
+		INJECTED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml
 	android:versionName
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:5:5-30
-		INJECTED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml
-		INJECTED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml
-	android:versionCode
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:4:5-28
-		INJECTED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml
-		INJECTED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml
+		ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:2:11-69
-uses-sdk
-ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:7:5-73
-	android:targetSdkVersion
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:7:41-70
-		INJECTED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml
-		INJECTED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml
-	android:minSdkVersion
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:7:15-40
-		INJECTED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml
-		INJECTED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml
+		ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml
 application
-ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:9:5-24:19
+ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:6:5-22:19
+INJECTED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:6:5-22:19
+	android:extractNativeLibs
+		INJECTED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml
 	android:label
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:12:9-41
-	android:allowBackup
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:10:9-35
+		ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:9:9-41
 	android:icon
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:11:9-45
+		ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:8:9-45
+	android:allowBackup
+		ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:13:9-40
+		ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:10:9-40
 activity#com.coganhquangnam.AndroidLauncher
-ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:14:9-23:20
+ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:11:9-21:20
 	android:screenOrientation
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:17:13-49
+		ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:14:13-49
 	android:label
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:16:13-45
+		ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:13:13-45
+	android:exported
+		ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:16:13-36
 	android:configChanges
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:18:13-83
+		ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:15:13-83
 	android:name
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:15:13-56
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:19:13-22:29
+		ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:12:13-62
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:17:13-20:29
 action#android.intent.action.MAIN
-ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:20:17-69
+ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:20:25-66
+		ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:21:17-77
+ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from D:\COMPILER\LIBGDX\COGANHQUANGNAM\android\AndroidManifest.xml:21:27-74
+		ADDED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml
+INJECTED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml
+MERGED from [com.badlogicgames.gdx:gdx-backend-android:1.12.1] /Users/gonton/.gradle/caches/transforms-3/edc5498164bdd6bf13557c4fc99ab8f9/transformed/gdx-backend-android-1.12.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.badlogicgames.gdx:gdx-backend-android:1.12.1] /Users/gonton/.gradle/caches/transforms-3/edc5498164bdd6bf13557c4fc99ab8f9/transformed/gdx-backend-android-1.12.1/AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		INJECTED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/gonton/Tech/Game/CoGanh/android/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.badlogicgames.gdx:gdx-backend-android:1.12.1] /Users/gonton/.gradle/caches/transforms-3/edc5498164bdd6bf13557c4fc99ab8f9/transformed/gdx-backend-android-1.12.1/AndroidManifest.xml:9:5-11:35
+	android:glEsVersion
+		ADDED from [com.badlogicgames.gdx:gdx-backend-android:1.12.1] /Users/gonton/.gradle/caches/transforms-3/edc5498164bdd6bf13557c4fc99ab8f9/transformed/gdx-backend-android-1.12.1/AndroidManifest.xml:10:9-41
+	android:required
+		ADDED from [com.badlogicgames.gdx:gdx-backend-android:1.12.1] /Users/gonton/.gradle/caches/transforms-3/edc5498164bdd6bf13557c4fc99ab8f9/transformed/gdx-backend-android-1.12.1/AndroidManifest.xml:11:9-32

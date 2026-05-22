@@ -12,6 +12,10 @@ task run(dependsOn: classes, type: JavaExec) {
     standardInput = System.in
     workingDir = project.assetsDir
     ignoreExitValue = true
+
+    if (org.gradle.internal.os.OperatingSystem.current().isMacOsX()) {
+        jvmArgs += "-XstartOnFirstThread"
+    }
 }
 
 task dist(type: Jar) {
