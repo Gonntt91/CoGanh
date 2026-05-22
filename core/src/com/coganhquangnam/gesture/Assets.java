@@ -12,6 +12,8 @@ public class Assets {
     public  static  Texture darkSide, lightSide;
     public static   Texture selectedSign;
     public static  Texture playBackImage;
+    public static  Texture boardBackground;
+    public static  Texture screenBackground;
     public static Sound openSound, moveSound, hitSound;
 
     public static void load()
@@ -20,6 +22,8 @@ public class Assets {
         darkSide = new Texture(Gdx.files.internal("data/dark.png"));
         lightSide =  new Texture(Gdx.files.internal("data/light.png"));
         selectedSign = new Texture(Gdx.files.internal("data/sheep.png"));
+        boardBackground = new Texture(Gdx.files.internal("data/board_background.png"));
+        screenBackground = new Texture(Gdx.files.internal("data/screen_background.png"));
         openSound = Gdx.audio.newSound(Gdx.files.internal("data/open.mp3"));
         moveSound = Gdx.audio.newSound(Gdx.files.internal("data/coin.wav"));
         hitSound = Gdx.audio.newSound(Gdx.files.internal("data/hit.wav"));

@@ -58,8 +58,14 @@ public class ChessBoard extends Stage {
 
     @Override
     public void draw() {
+        getBatch().setProjectionMatrix(getCamera().combined);
+        getBatch().begin();
+        getBatch().draw(com.coganhquangnam.gesture.Assets.screenBackground, 0, 0, getViewport().getWorldWidth(), getViewport().getWorldHeight());
+        getBatch().draw(com.coganhquangnam.gesture.Assets.boardBackground, gocX, gocY, distance, distance);
+        getBatch().end();
+
         drawBoard();
-         super.draw();
+        super.draw();
     }
 
     public void drawBoard()
@@ -67,7 +73,7 @@ public class ChessBoard extends Stage {
 
 
         shapeRenderer.begin(ShapeRenderer.ShapeType.Filled);
-        shapeRenderer.setColor(Color.GREEN);
+        shapeRenderer.setColor(new Color(0.88f, 0.75f, 0.52f, 1.0f)); // Warm golden cream
         for(int row=0; row<5; row++)
         {
             shapeRenderer.rectLine(gocX, row * squaredistance + gocY, distance + gocX, row * squaredistance + gocY, thickness);
