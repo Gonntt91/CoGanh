@@ -12,6 +12,7 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.GlyphLayout;
+import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
@@ -41,6 +42,7 @@ public class ChessBoard extends Stage {
     public static ArrayList<ChessPiece> pieceCollection;
     public final OpeningSign HO, AO;
     private Skin skin;
+    private Texture overlayBgTex;  // for WinOverlay
 
     //Constructor
     public ChessBoard(){
@@ -156,6 +158,34 @@ public class ChessBoard extends Stage {
             }
         });
 
+        // ─── Labels (added FIRST so diffPanel renders on top of them) ───
+        // "Difficulty" label below hamburger (centerX=70, hamburger bottom=570)
+        this.addActor(new Actor() {
+            @Override
+            public void draw(Batch batch, float parentAlpha) {
+                glyphLayout.setText(menuFont, "Difficulty");
+                menuFont.setColor(0.78f, 0.80f, 0.88f, parentAlpha);
+                menuFont.draw(batch, "Difficulty",
+                        70f - glyphLayout.width / 2f,
+                        565f);
+                batch.setColor(Color.WHITE);
+            }
+        });
+
+        // "Back" label below PlayBackButton (centerX=240, bottom=565)
+        this.addActor(new Actor() {
+            @Override
+            public void draw(Batch batch, float parentAlpha) {
+                glyphLayout.setText(menuFont, "Back");
+                menuFont.setColor(0.78f, 0.80f, 0.88f, parentAlpha);
+                menuFont.draw(batch, "Back",
+                        240f - glyphLayout.width / 2f,
+                        560f);
+                batch.setColor(Color.WHITE);
+            }
+        });
+
+        // diffPanel added AFTER labels → draws on top (covers "Difficulty" when open)
         this.addActor(diffPanel);
 
         // ─── Hamburger Button (≡) ───
@@ -199,6 +229,87 @@ public class ChessBoard extends Stage {
         });
 
         this.addActor(hamburgerBtn);
+
+        // ─── WIN / LOSE Overlay ───
+        Pixmap ovPm = new Pixmap(1, 1, Pixmap.Format.RGBA8888);
+        ovPm.setColor(0f, 0f, 0f, 0.72f);
+        ovPm.fill();
+        overlayBgTex = new Texture(ovPm);
+        ovPm.dispose();
+
+        final float WW = distance + 2 * gocX;   // world width  = 480
+        final float WH = distance + gocY + menuAreaHeight; // world height = 650
+
+        // Shared message state — read by winOverlay.draw(), written by AI callback
+        final String[] overlayMsg = {"", ""};  // [0]=title, [1]=subtitle
+
+        final Actor winOverlay = new Actor() {
+            @Override
+            public void draw(Batch batch, float parentAlpha) {
+                String line1 = overlayMsg[0];
+                String line2 = overlayMsg[1];
+
+                // Full-screen dim
+                batch.setColor(0f, 0f, 0f, 0.72f * parentAlpha);
+                batch.draw(overlayBgTex, 0, 0, WW, WH);
+
+                // Card background
+                float cardW = 340f, cardH = 160f;
+                float cardX = (WW - cardW) / 2f;
+                float cardY = (WH - cardH) / 2f;
+                batch.setColor(0.10f, 0.12f, 0.20f, 0.97f * parentAlpha);
+                batch.draw(overlayBgTex, cardX, cardY, cardW, cardH);
+
+                // Accent top bar (green=win, red=lose)
+                boolean isWin = line1.contains("WIN");
+                batch.setColor(isWin ? 0.18f : 0.80f,
+                               isWin ? 0.75f : 0.18f,
+                               isWin ? 0.35f : 0.18f,
+                               parentAlpha);
+                batch.draw(overlayBgTex, cardX, cardY + cardH - 6f, cardW, 6f);
+
+                // Title (big)
+                menuFont.getData().setScale(3.0f);
+                menuFont.setColor(isWin
+                        ? new Color(0.25f, 1.0f, 0.45f, 1f)
+                        : new Color(1.0f, 0.30f, 0.30f, 1f));
+                glyphLayout.setText(menuFont, line1);
+                menuFont.draw(batch, line1,
+                        WW / 2f - glyphLayout.width / 2f,
+                        cardY + cardH - 22f);
+
+                // Subtitle
+                menuFont.getData().setScale(1.4f);
+                menuFont.setColor(0.82f, 0.84f, 0.90f, 1f);
+                glyphLayout.setText(menuFont, line2);
+                menuFont.draw(batch, line2,
+                        WW / 2f - glyphLayout.width / 2f,
+                        cardY + 48f);
+
+                menuFont.getData().setScale(1f);
+                batch.setColor(Color.WHITE);
+            }
+        };
+        winOverlay.setBounds(0, 0, WW, WH);
+        winOverlay.setVisible(false);
+        this.addActor(winOverlay);
+
+        // Register callback — AI calls this instead of JOptionPane
+        AI.onGameEnd = new AI.GameEndListener() {
+            private void show(String title, String subtitle) {
+                overlayMsg[0] = title;
+                overlayMsg[1] = subtitle;
+                winOverlay.setVisible(true);
+                winOverlay.clearActions();
+                winOverlay.setScale(0.3f);
+                winOverlay.setOrigin(WW / 2f, WH / 2f);
+                winOverlay.addAction(Actions.scaleTo(1f, 1f, 0.35f,
+                        com.badlogic.gdx.math.Interpolation.swingOut));
+            }
+            @Override public void onHumanWins()   { show("YOU WIN!",  "Congratulations!"); }
+            @Override public void onComputerWins() { show("YOU LOSE", "Better luck next time!"); }
+        };
+
 /*        for(ChessPiece cp : pieceCollection)
         {
             System.out.println(cp.getBoardCoord().x + "___" + cp.getBoardCoord().y);
@@ -319,9 +430,8 @@ public class ChessBoard extends Stage {
     @Override
     public void dispose() {
         super.dispose();
-        if (skin != null) {
-            skin.dispose();
-        }
+        if (skin != null) skin.dispose();
+        if (overlayBgTex != null) overlayBgTex.dispose();
     }
 
 }

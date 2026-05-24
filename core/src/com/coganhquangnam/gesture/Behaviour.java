@@ -101,16 +101,20 @@ public class Behaviour {
 
     public static void computerResponse()
     {
+        // Check if human just won (ate all computer "a" pieces) — normal board state
+        if(AI.isHumanWin()) return;
 
         AI.flipBoard();
-        // KIem tra Thang Thua
+        // Kiểm tra Thắng Thua: after flip "A"=computer, "a"=human; if human has no pieces → computer wins
         if(!AI.isWinLose("human"))
         {
             substitute();
         }
 
         AI.flipBoard();
-        //AI.printForDebug();
+        
+        // Check if computer just won (ate all human "A" pieces) — normal board state
+        AI.isHumanLoseNormal();
     }
 
     public static void  substitute()
