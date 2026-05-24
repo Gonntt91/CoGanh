@@ -8,7 +8,7 @@ public class DesktopLauncher {
 	public static void main (String[] arg) {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		config.setTitle("Co Ganh Quang Nam");
-		config.setWindowedMode(480, 800);
+		config.setWindowedMode(480, 650);
 		new Lwjgl3Application(new OpenMind(), config);
 	}
 }

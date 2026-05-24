@@ -47,10 +47,14 @@ public class PlayScreen extends  BaseGameScreen {
 
     @Override
     public void resize(int width, int height) {
-
+        chessBoard.getViewport().update(width, height, true);
         chessBoard.getCamera().update();
         chessBoard.shapeRenderer.setProjectionMatrix(chessBoard.getCamera().combined);
-        chessBoard.getViewport().update(width, height, false);
+    }
 
+    @Override
+    public void dispose() {
+        super.dispose();
+        chessBoard.dispose();
     }
 }

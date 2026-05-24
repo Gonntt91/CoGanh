@@ -46,7 +46,7 @@ public class PlayBackButton extends Actor {
                     recoverOpeningSign(bm);
                 }
 
-                return super.touchDown(event, x, y, pointer, button);
+                return true;
             }
         });
 
