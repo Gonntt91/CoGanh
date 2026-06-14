@@ -21,23 +21,22 @@ public class AI {
 	public static GameEndListener onGameEnd = null;
 
 	public static String haveToMoveList = "";
-	// public static String[][] chessBoard=
-	// {
-	// {"A","A","A","a","a"},
-	// {"A"," "," ", " ","a"},
-	// {"A"," "," ", " ","a"},
-	// {"A"," "," "," ","a"},
-	// {"A","A","a","a","a"}
-
-	// };
 	public static String[][] chessBoard = {
-			{ "A", "A", "A", "A", "A" },
-			{ "A", " ", " ", " ", "A" },
-			{ "A", " ", " ", " ", "A" },
+			{ "A", "A", "A", "a", "a" },
 			{ "A", " ", " ", " ", "a" },
-			{ "A", "A", "A", "A", "A" }
+			{ "A", " ", " ", " ", "a" },
+			{ "A", " ", " ", " ", "a" },
+			{ "A", "A", "a", "a", "a" }
 
 	};
+	// public static String[][] chessBoard = {
+	// { "A", "A", "A", "A", "A" },
+	// { "A", " ", " ", " ", "A" },
+	// { "A", " ", " ", " ", "A" },
+	// { "A", " ", " ", " ", "a" },
+	// { "A", "A", "A", "A", "A" }
+
+	// };
 
 	// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 	// Trang thai cua nuoc di
