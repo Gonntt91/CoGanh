@@ -1,7 +1,5 @@
 package com.coganhquangnam.Engine;
 
-import com.badlogic.gdx.math.Vector2;
-
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
@@ -33,20 +31,20 @@ public class AI {
 
 	// };
 	public static String[][] chessBoard = {
-			{ "a", "a", "a", "a", "a" },
-			{ "a", " ", " ", " ", "a" },
-			{ "a", " ", " ", " ", "a" },
-			{ "a", " ", " ", " ", "a" },
-			{ "a", "A", "a", "a", "a" }
+			{ "A", "A", "A", "A", "A" },
+			{ "A", " ", " ", " ", "A" },
+			{ "A", " ", " ", " ", "A" },
+			{ "A", " ", " ", " ", "a" },
+			{ "A", "A", "A", "A", "A" }
 
 	};
 
 	// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 	// Trang thai cua nuoc di
 	public static boolean ganh = false, bopchit = false, putTrap = false;
-	// Vi tri dang mo
+	// Vị trí đang Mở (trap bẫy)
 	public static Point currentTrappingPositon;
-	// Cac quan co ngay ngo
+	// Các quân cờ ngây ngô
 	public static ArrayList<Point> sheeps;
 
 	//////////////////////////////////////////////////////////////////////
@@ -448,7 +446,8 @@ public class AI {
 	}
 
 	/**
-	 * Called after flipBoard() — at this point "A" = computer pieces, "a" = human pieces.
+	 * Called after flipBoard() — at this point "A" = computer pieces, "a" = human
+	 * pieces.
 	 * If no "a" found → human pieces are all gone → COMPUTER wins.
 	 */
 	public static boolean isWinLose(String faction) {
