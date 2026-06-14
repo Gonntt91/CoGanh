@@ -12,8 +12,9 @@ Trước khi bắt đầu, hãy đảm bảo máy tính của bạn đã cài đ
    - Kiểm tra phiên bản Java bằng lệnh: `java -version`
 2. **Android SDK**: Cần thiết để phát triển và build ứng dụng Android.
    - Hãy chắc chắn đường dẫn Android SDK đã được cấu hình chính xác trong file [local.properties](file:///Users/gonton/Tech/Game/CoGanh/local.properties).
-3. **IDE đề xuất**:
+3. **IDE đề xuất & Công cụ hỗ trợ**:
    - **Android Studio** hoặc **IntelliJ IDEA** (đã cài đặt plugin Gradle).
+   - Khuyên dùng trợ lý AI **Antigravity** (tải về tại [antigravity.google](https://antigravity.google)) để hỗ trợ quá trình lập trình, tối ưu hóa code và sửa lỗi dự án tự động.
 
 ---
 
