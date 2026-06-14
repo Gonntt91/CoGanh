@@ -185,6 +185,19 @@ public class ChessBoard extends Stage {
             }
         });
 
+        // "Guide" label below GuideButton (centerX=410, bottom=560)
+        this.addActor(new Actor() {
+            @Override
+            public void draw(Batch batch, float parentAlpha) {
+                glyphLayout.setText(menuFont, "Guide");
+                menuFont.setColor(0.78f, 0.80f, 0.88f, parentAlpha);
+                menuFont.draw(batch, "Guide",
+                        410f - glyphLayout.width / 2f,
+                        560f);
+                batch.setColor(Color.WHITE);
+            }
+        });
+
         // diffPanel added AFTER labels → draws on top (covers "Difficulty" when open)
         this.addActor(diffPanel);
 
@@ -230,6 +243,35 @@ public class ChessBoard extends Stage {
 
         this.addActor(hamburgerBtn);
 
+        // ─── Guide Button (i / ?) ───
+        final Actor guideBtn = new Actor() {
+            private Texture circleTex;
+            {
+                Pixmap p = new Pixmap(1, 1, Pixmap.Format.RGBA8888);
+                p.setColor(Color.WHITE);
+                p.fill();
+                circleTex = new Texture(p);
+                p.dispose();
+            }
+            @Override
+            public void draw(Batch batch, float parentAlpha) {
+                float bx = getX(), by = getY(), bw = getWidth(), bh = getHeight();
+                
+                batch.setColor(0.18f, 0.18f, 0.24f, 0.80f * parentAlpha);
+                batch.draw(circleTex, bx, by, bw, bh);
+
+                menuFont.getData().setScale(1.6f);
+                menuFont.setColor(Color.WHITE);
+                glyphLayout.setText(menuFont, "?");
+                menuFont.draw(batch, "?",
+                        bx + (bw - glyphLayout.width) / 2f,
+                        by + (bh + glyphLayout.height) / 2f);
+                menuFont.getData().setScale(1f);
+                batch.setColor(Color.WHITE);
+            }
+        };
+        guideBtn.setBounds(385, 570, 50, 80);
+
         // ─── WIN / LOSE Overlay ───
         Pixmap ovPm = new Pixmap(1, 1, Pixmap.Format.RGBA8888);
         ovPm.setColor(0f, 0f, 0f, 0.72f);
@@ -239,6 +281,143 @@ public class ChessBoard extends Stage {
 
         final float WW = distance + 2 * gocX;   // world width  = 480
         final float WH = distance + gocY + menuAreaHeight; // world height = 650
+
+        final int[] guidePage = {0}; // 0, 1, 2
+        final String[][] guideTexts = {
+            {
+                "             HOW TO PLAY CO GANH",
+                "",
+                "        PAGE 1/3: BOARD & MOVEMENT",
+                "",
+                "- The board consists of 25 intersections.",
+                "- Player A (You): Orange Bitcoin",
+                "- Player B (Computer): Blue Ethereum",
+                "- At start, 8 pieces of each player are",
+                "  placed along the outer edge of the board.",
+                "",
+                "- Movement: Take turns moving one piece",
+                "  to an adjacent empty intersection along",
+                "  horizontal, vertical, or diagonal lines."
+            },
+            {
+                "             HOW TO PLAY CO GANH",
+                "",
+                "         PAGE 2/3: GANH & VAY RULES",
+                "",
+                "- Ganh (Capture): Move your piece directly",
+                "  between two opponent pieces (forming a line).",
+                "  Those two opponent pieces will be captured",
+                "  and change to your coin type.",
+                "  *Note: Only happens on your active move.",
+                "   If opponent moves between you, they are safe.",
+                "  *Ganh Chau: Capture up to 4 or 6 pieces.",
+                "",
+                "- Vay (Cornered): Completely surround opponent",
+                "  pieces so they have no legal moves left.",
+                "  The trapped pieces change to your coin type."
+            },
+            {
+                "             HOW TO PLAY CO GANH",
+                "",
+                "        PAGE 3/3: OPEN TRAP & WINNING",
+                "",
+                "- Open Trap (Mo / Chap):",
+                "  A high-level strategy where you move your",
+                "  piece to leave an empty spot between two",
+                "  of your own pieces, baiting the opponent.",
+                "",
+                "- FORCED CAPTURE (CRITICAL RULE):",
+                "  When a player declares 'Open' (Mo), the",
+                "  opponent MUST move their piece into that",
+                "  empty spot to capture on their next turn",
+                "  (if they have a legal move to that spot).",
+                "",
+                "- Winning: Capture all 16 pieces on the board,",
+                "  or block opponent from making any legal moves."
+            }
+        };
+
+        final Actor guideOverlay = new Actor() {
+            @Override
+            public void draw(Batch batch, float parentAlpha) {
+                batch.setColor(0f, 0f, 0f, 0.85f * parentAlpha);
+                batch.draw(overlayBgTex, 0, 0, WW, WH);
+
+                float cardW = 440f, cardH = 500f;
+                float cardX = (WW - cardW) / 2f;
+                float cardY = (WH - cardH) / 2f;
+                batch.setColor(0.08f, 0.09f, 0.15f, 0.98f * parentAlpha);
+                batch.draw(overlayBgTex, cardX, cardY, cardW, cardH);
+
+                batch.setColor(0.18f, 0.40f, 0.76f, parentAlpha);
+                batch.draw(overlayBgTex, cardX, cardY + cardH - 6f, cardW, 6f);
+
+                menuFont.getData().setScale(1.15f);
+                menuFont.setColor(new Color(0.9f, 0.92f, 0.95f, 1f));
+                
+                String[] lines = guideTexts[guidePage[0]];
+                float startY = cardY + cardH - 30f;
+                for (int i = 0; i < lines.length; i++) {
+                    menuFont.draw(batch, lines[i], cardX + 22, startY - i * 26);
+                }
+
+                menuFont.getData().setScale(1.25f);
+                
+                if (guidePage[0] > 0) {
+                    menuFont.setColor(0.2f, 0.6f, 1f, parentAlpha);
+                    glyphLayout.setText(menuFont, "<- PREV");
+                    menuFont.draw(batch, "<- PREV", cardX + 30, cardY + 35);
+                }
+                
+                if (guidePage[0] < 2) {
+                    menuFont.setColor(0.2f, 0.6f, 1f, parentAlpha);
+                    glyphLayout.setText(menuFont, "NEXT ->");
+                    menuFont.draw(batch, "NEXT ->", cardX + cardW - 30 - glyphLayout.width, cardY + 35);
+                }
+
+                menuFont.setColor(1f, 0.3f, 0.3f, parentAlpha);
+                glyphLayout.setText(menuFont, "CLOSE");
+                menuFont.draw(batch, "CLOSE", WW / 2f - glyphLayout.width / 2f, cardY + 35);
+
+                menuFont.getData().setScale(1f);
+                batch.setColor(Color.WHITE);
+            }
+        };
+        guideOverlay.setBounds(0, 0, WW, WH);
+        guideOverlay.setVisible(false);
+
+        guideOverlay.addListener(new InputListener() {
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int btn) {
+                if (y >= 75 && y <= 125) {
+                    if (x >= 20 && x <= 140 && guidePage[0] > 0) {
+                        guidePage[0]--;
+                        return true;
+                    }
+                    if (x >= 340 && x <= 460 && guidePage[0] < 2) {
+                        guidePage[0]++;
+                        return true;
+                    }
+                    if (x >= 180 && x <= 300) {
+                        guideOverlay.setVisible(false);
+                        return true;
+                    }
+                }
+                return true;
+            }
+        });
+
+        guideBtn.addListener(new InputListener() {
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int btn) {
+                guidePage[0] = 0;
+                guideOverlay.setVisible(true);
+                return true;
+            }
+        });
+
+        this.addActor(guideBtn);
+        this.addActor(guideOverlay);
 
         // Shared message state — read by winOverlay.draw(), written by AI callback
         final String[] overlayMsg = {"", ""};  // [0]=title, [1]=subtitle
